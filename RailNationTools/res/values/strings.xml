@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<resources>
+
+<string name="app_name">NavigationDrawer</string>
+
+<string name="drawer_open">Open drawer</string>
+
+<string name="drawer_close">Close drawer</string>
+
+<string name="title_activity_main2">MainActivity</string>
+
+<string name="hello_world">Hello world!</string>
+
+<string name="action_settings">Settings</string>
+
+<string name="nummberOfTrains">Broj vozova:</string>
+
+<string name="nummberOfWagons">Broj vagona po vozu:</string>
+
+<string name="wagonBonus">Bonus po vagonu:</string>
+
+<string name="timeForRoute">Vreme za turu:</string>
+
+<string name="inSeconds">izrazeno u sekundama</string>
+
+<string name="buttonCalculate">Izracunaj</string>
+
+<string name="quantityOfRequiredGood">Kolicina potrebne robe:</string>
+
+</resources>

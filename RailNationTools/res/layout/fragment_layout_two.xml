@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal" >
+
+
+    <ImageView
+        android:id="@+id/frag2_icon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" 
+        android:contentDescription="Ovde treba da ide slika"/>
+
+    <TextView
+        android:id="@+id/frag2_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:text="nesto"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    
+        <EditText
+        android:id="@+id/etBrojVozova"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/frag2_text"
+        android:layout_toRightOf="@id/tvBrojVozova"
+        android:ems="10" 
+        android:inputType="number"/>
+
+    <EditText
+        android:id="@+id/etBrojVagona"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView01"
+        android:layout_alignLeft="@+id/etBrojVozova"
+        android:ems="10"
+        android:inputType="number" />
+
+    <EditText
+        android:id="@+id/etVremeZaTuru"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/TextView03"
+        android:layout_toRightOf="@+id/tvBrojVozova"
+        android:ems="10"
+        android:hint="@string/inSeconds"
+        android:inputType="number" />
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/tvBrojVozova"
+        android:layout_below="@+id/etBrojVozova"
+        android:layout_marginTop="24dp"
+        android:text="@string/nummberOfWagons"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/tfPrikazRezultata"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/TextView03"
+        android:layout_marginTop="60dp"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/bIzracunaj"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:text="@string/buttonCalculate" />
+
+    <TextView
+        android:id="@+id/tvBrojVozova"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@id/etBrojVozova"
+        android:layout_alignParentLeft="true"
+        android:layout_toLeftOf="@+id/bIzracunaj"
+        android:text="@string/quantityOfRequiredGood"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <TextView
+        android:id="@+id/TextView03"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignRight="@+id/TextView01"
+        android:layout_below="@+id/TextView01"
+        android:layout_marginTop="22dp"
+        android:text="@string/timeForRoute"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+</RelativeLayout>
